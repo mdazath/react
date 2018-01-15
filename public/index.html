@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products Grid</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+.ad {
+width:100%
+}
+
+.product-box {
+	border-radius: 5%;
+	border: 2px solid black;
+	box-shadow: inset 0px 0px 0px 10px red;
+	box-sizing: border-box;
+	padding:10px;
+	height:250px;
+}
+.loader {
+ font-size:20px;
+ font-weight:bold;
+ text-align:center;
+}
+.face {
+height: 75px;
+}
+</style>
+    </head>
+    <body>
+        <header>
+            <h1>Products Grid</h1>
+
+            <p>Here you're sure to find a bargain on some of the finest ascii available to purchase. Be sure to peruse our selection of ascii faces in an exciting range of sizes and prices.</p>
+
+            <p>But first, a word from our sponsors:</p> 
+			<script>document.write('<img class="ad" src="http://localhost:3000/ads/?r=' + Math.floor(Math.random()*1000) + '"/>');</script>
+        </header>
+		<div class="container">
+			
+		</div>
+        <section class="products" id="products"></section>
+    </body>
+</html>
